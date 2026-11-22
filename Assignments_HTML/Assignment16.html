@@ -5,6 +5,20 @@ Assignment 16
         </title>
     </head>
     <body>
-        
+     <form>
+        <label for="course">Course:</label>
+        <select id="course" name="course">
+            <option value="ece" selected>ECE</option>
+            <option value="cse">CSE</option>
+            <option value="it">IT</option>
+        </select><br>
+
+        <label for="feedback">Feedback:</label><br>
+        <textarea id="feedback" name="feedback" rows="5" cols="45" placeholder="Write here..."></textarea><br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <button type="button" onclick="alert('Button Clicked!')">Click Me</button>
+     </form> 
     </body>
 </html>
