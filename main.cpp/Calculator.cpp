@@ -23,7 +23,13 @@ int main() {
             cout<<"The product of the two numbers is :"<<a*b;
             break;
         case '/':
-            cout<<"The quotient of the two numbers is :"<<a/b;
+            if (b==0){
+                cout<<"Division by zero is not allowed.";
+                break;
+            }
+            else{
+                cout<<"The quotient of the two numbers is :"<<a/b;
+            }
             break;
         default:
             cout<<"Invalid choice";
